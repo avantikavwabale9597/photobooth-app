@@ -1,13 +1,15 @@
 {
-  "name": "photobooth-made-by-me",
+  "name": "photobooth-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A desktop photobooth app built using Electron.js",
+  "main": "main.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "keywords": [],
-  "author": "",
+  "author": "Avantika Wabale",
   "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "electron": "^39.2.7"
+  }
 }
