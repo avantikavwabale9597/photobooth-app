@@ -8,10 +8,19 @@
   <body>
     <h1>PHOTOBOOTH BY AVA</h1>
     <h4>Capture your Moment!!</h4>
-    <br />
-    <video id="video" autoplay></video>
-    <canvas id="canvas"></canvas>
-    <br />
+
+     <div class="frames">
+      <div class="frame" id="frame1">
+       <video id="video" autoplay playinline muted></video>
+    <canvas id="canvas1"></canvas>
+    </div>
+    <div class="frame" id="frame2">
+    <canvas id="canvas2"></canvas>
+    </div>
+    
+  </div>
+    <br>
     <button id="capture">Capture Moment<3</button>
+    <script src="renderer.js"></script>
   </body>
 </html>
