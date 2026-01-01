@@ -45,3 +45,13 @@ button{
     cursor: pointer;
     background-color: #FFF3C4;
 }
+#countdown{
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff3c4;
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
