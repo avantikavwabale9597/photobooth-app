@@ -4,12 +4,27 @@
   "description": "A desktop photobooth app built using Electron.js",
   "main": "main.js",
   "type": "commonjs",
-  "scripts": {
-    "start": "electron ."
-  },
   "author": "Avantika Wabale",
   "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
   "devDependencies": {
-    "electron": "^39.2.7"
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.ava.photobooth",
+    "productName": "PhotoBooth by Ava",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
   }
 }
