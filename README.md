@@ -10,5 +10,3 @@ My first Electron PhotoBooth App
   if you can't see vdo please view it as raw so it can download on your device
   ![Download guide img 1](download1.png)
   ![Download guide img 2](download2.png)
-  https://drive.google.com/file/d/1EwCdOCSbtWdlFjPjMd6Jjnsl3XxsDtbm/view?usp=sharing
-  click above link to download
